@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* amazon logo (Box 1) */
+.nav-logo{
+     height: 50px;
+     width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+}
+
+/* border class whih is created for the purpose in the html using css. */
+.border{
+    border: solid;
+    border-width: 1.5px;
+    border-color: transparent;
+}
+.border:hover{
+    border: solid;
+    border-color: white;
+    border-width: 1.5px;
+}
+
+/* Address and the Location icon (Box 2)*/
+.first-color{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.second-color{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.add-icon{
+    display: flex;
+}
+.mainborder{
+    height: 50px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search bar and the search icon (Box 3)*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+    background-color: violet;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; /*  this will remove the by default border */
+    color: #0f1111;
+}
+.search-input{
+    /* width: 505px; */
+    /* or */
+    width: 100%;       /* This will occupy all the remaining space in the container */
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;   /* to align item horizontally in the center */
+    align-items: center;      /*  to align itens vertically in the center. */
+    font-size: 1.3rem;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111; 
+}
+
+.nav-search:hover{
+    border: solid;
+    border-color: orange;
+}
+
+/*  Lnaguage container (Box 4)*/
+.nav-languageicon{ /*this is for the outer border */
+    height: 50px;
+    width: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    background: none;
+    color: white;
+    border: none;
+}
+.nav-Intlngdiv{
+    display: flex;
+}
+
+/* Sign in and account box (box 5) */
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.outer{ /* this is for the outer border */
+    height: 50px;
+    width: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Return & Orders (Box 6) */
+/* the code for this boxis already applied in the class= nav-second. */
+.outerorderreturn{ /* this code is for the full border */
+    height: 50px;
+    width: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+ /* Cart (Box 7) */
+ .nav-carticon i{
+    font-size: 30px
+ }
+
+ .nav-carticon{
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .cartouterborder{
+    height: 50px;
+    width: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ /* ************************************************************************ */
+ .panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+
+
+ .panel-option p{
+    display: inline;
+    margin: 15px;
+    
+ }
+ .panel-option{
+    width:70%;
+    font-size: 14px;
+ }
+
+ .panel-deals{
+    font-size: 15px;
+    font-weight: 700;  
+ }
+
+ /* Hero Section. */
+ .hero-section{
+    background-image: url(Newhero.jpg);
+    background-size: cover;
+    height: 350px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+ }
+
+ .hero-message{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+ }
+ .hero-message a{
+    color: #007185;
+ }
+ .hero-message p{
+    color: #0f1111;
+ }
+
+/* **************************************************** */
+ /* Shop section */
+ .shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f9dfea;
+ }
+ 
+ .box{
+    /* border: solid black 2px; */
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    padding: 20px 10px 15px; 
+    background-color:azure;  
+ }
+
+ /* Boxes */
+
+.box-img{
+    
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.box-content{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box-content p{
+    color: #007185;
+}
+
+/* ***************************************************  */
+
+/* Footer */
+footer{
+    margin-top: 20px;
+}
+
+.foot-panelone{
+    font: 13px;
+    height: 50px;
+    background-color:#37475a;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}       
+
+/* footer panel no.2 */
+.foot-paneltwo{
+    height: 300px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 20px;
+}
+p{
+    color: #ffffff;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+/* footer panel 3 */
+.foot-panelthree{
+    height: 100px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid white;
+}
+/* hr{
+    border: none;
+    height: 0.5px;
+    background-color:dimgrey;
+    margin: 0.01px ;
+} */
+.conent-div{
+    height: 68px;
+    width: 1000px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* footer logo */
+.logo-div{
+    /* background-color:tan; */
+    height: 68px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo{
+    height: 50px;
+    width: 150px;
+    background-image: url(amazon_logo.png);
+    background-size:cover;
+    background-repeat: none;
+    font-size: 12px;
+}
+
+/* language money and state */
+.three-div{  /*  common div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 440px;
+    /* background-color: #0f1111; */
+}
+.three-boxes{
+    width: 150px;
+    height: 35px;
+    border: solid 0.2px #dddddd;
+    /* background-color: blue; */
+    margin: 2px;
+    border-radius: 5px;
+}
+
+/* footer-language div */
+.footer-box{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+/* footer panel four 4 */
+
+.foot-panelfour{
+    height: 350px;
+    background-color: #131a22;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 180px;  
+}
+.newcontent-div{
+    width: 10%;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 0px 15px;
+    text-align: left;
+}
+.newcontent-div a{
+    color: #999999;
+}
+
+/* ******************************************* */
+.foot-panelfive{
+    height: 80px;
+    background-color: #131a22;
+    font-size: 12px;
+    border-top: 0.1px solid #dddddd;
+}
+
+.panels{    
+    color: #dddddd;
+    text-align: center;
+    padding-top: 25px;
+}
+.panels a{
+    margin: 5px;
+}
+.copyright{
+    color: #dddddd;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
